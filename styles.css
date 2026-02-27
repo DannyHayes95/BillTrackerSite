@@ -33,6 +33,21 @@ body {
   padding-bottom: 1rem;
 }
 
+.logo-horizontal {
+  width: min(500px, 86vw);
+  height: auto;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.logo-mark {
+  width: 88px;
+  height: 88px;
+  border-radius: 22px;
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
 .eyebrow {
   margin: 0 0 0.5rem;
   letter-spacing: 0.1em;
