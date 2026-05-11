@@ -19,6 +19,7 @@
       </p>
       <div class="actions">
         <a class="btn primary" href="./privacy.html">Privacy Policy</a>
+        <a class="btn" href="./privacy-choices.html">Privacy Choices</a>
         <a class="btn" href="https://github.com/DannyHayes95/BillTrackerTest_1">GitHub Repository</a>
       </div>
     </div>
@@ -35,11 +36,21 @@
     </section>
 
     <section class="card">
-      <h2>Security Overview</h2>
+      <h2>Security and Data Handling</h2>
       <ul>
         <li>Network requests use HTTPS/TLS.</li>
-        <li>Plaid authentication is handled using Plaid Link and OAuth flows.</li>
-        <li>Application data is limited to liability-focused use cases.</li>
+        <li>Authentication uses Apple Sign In and backend session controls.</li>
+        <li>Plaid access tokens are encrypted at rest.</li>
+        <li>The backend is liabilities-focused and does not expose account/transaction feeds.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Business and Compliance Documents</h2>
+      <ul>
+        <li><a href="https://github.com/DannyHayes95/BillTrackerTest_1/blob/main/docs/BUSINESS_DOCUMENTATION.md">Business Plan</a></li>
+        <li><a href="https://github.com/DannyHayes95/BillTrackerTest_1/blob/main/docs/COMPLIANCE_READINESS_PLAN.md">Compliance Readiness Plan</a></li>
+        <li><a href="https://github.com/DannyHayes95/BillTrackerTest_1/blob/main/docs/COMPLIANCE_LAUNCH_CHECKLIST.md">Compliance Launch Checklist</a></li>
       </ul>
     </section>
 
@@ -58,7 +69,11 @@
 
   <footer class="footer container">
     <p>Bill Tracker Hub</p>
-    <p><a href="./privacy.html">Privacy Policy</a></p>
+    <p>
+      <a href="./privacy.html">Privacy Policy</a>
+      |
+      <a href="./privacy-choices.html">Privacy Choices</a>
+    </p>
   </footer>
 </body>
 </html>
