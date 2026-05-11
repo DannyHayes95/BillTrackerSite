@@ -82,12 +82,19 @@
       <h2>Data Retention</h2>
       <p>
         Data is retained for operational, security, and legal purposes for the period reasonably needed to provide the service.
-        Retention windows may differ by data type (for example, sessions, linked-item metadata, liabilities history,
-        and user planning-state data).
+        Authentication sessions expire after a limited period, linked-item metadata is kept while the institution remains
+        connected, planning-state data is kept while the account remains active, and liabilities history is retained on
+        a rolling basis unless the user disconnects or requests deletion.
       </p>
       <p>
-        If a user disconnects a linked Plaid item through app controls, related linked-item records and associated liability
-        snapshots/history for that user are removed by backend deletion workflows.
+        If a user disconnects a linked Plaid item through app controls, Bill Tracker Hub attempts to remove the Plaid
+        Item through Plaid before deleting local linked-item records, encrypted Plaid access tokens, liability snapshots,
+        liabilities history, and related coverage records from active backend storage.
+      </p>
+      <p>
+        If a verified user deletion request is completed, active app data associated with the account is deleted from
+        TYDES active systems. Vendor backups, security logs, and workflow artifacts may age out under normal platform
+        retention windows unless a legal, fraud-prevention, or security exception applies.
       </p>
       <p>
         Some records may be retained for a limited period when needed for security, fraud prevention, legal compliance,

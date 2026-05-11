@@ -33,7 +33,7 @@
       <h2>Available Requests</h2>
       <ul>
         <li>Request help disconnecting linked financial institutions.</li>
-        <li>Request help deleting account-associated app data.</li>
+        <li>Request deletion of account-associated app data from active TYDES systems.</li>
         <li>Request clarification about what data categories are processed.</li>
         <li>Request correction support if app-controlled information appears inaccurate.</li>
       </ul>
@@ -58,6 +58,10 @@
         Users may also manage certain Plaid-side connection and data controls directly in
         <a href="https://my.plaid.com">Plaid Portal</a>.
       </p>
+      <p>
+        When app-side disconnection or verified deletion is processed, Bill Tracker Hub attempts to remove the linked
+        Plaid Item before deleting local encrypted Plaid access tokens and active app records.
+      </p>
     </section>
 
     <section class="card">
@@ -67,7 +71,9 @@
         <li>Target completion window: within 30 business days after identity verification and scope confirmation.</li>
       </ul>
       <p>
-        Complex requests may require additional time when needed for security, fraud prevention, or legal compliance.
+        Completed deletion requests remove active app records such as authentication sessions, planning state, Plaid link
+        metadata, encrypted Plaid access tokens, liability data, and related coverage records. Complex requests may require
+        additional time when needed for security, fraud prevention, platform outage handling, or legal compliance.
       </p>
     </section>
   </main>
