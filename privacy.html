@@ -13,7 +13,7 @@
       <img class="logo-mark" src="./assets/logo-mark.svg" alt="Bill Tracker Hub logo mark">
       <p class="eyebrow">Bill Tracker Hub</p>
       <h1>Privacy Policy</h1>
-      <p class="lead">Last updated: May 11, 2026</p>
+      <p class="lead">Last updated: June 22, 2026</p>
       <div class="actions">
         <a class="btn" href="./index.html">Back to Home</a>
         <a class="btn" href="./privacy-choices.html">Privacy Choices</a>
@@ -38,6 +38,7 @@
         <li>Consent records, such as the consent type, consent version, source, status, timestamp, and non-secret disclosure metadata.</li>
         <li>Plaid Link metadata, such as linked item, institution, and connection details needed to maintain account connectivity.</li>
         <li>Liability information returned by Plaid, such as balances, statement amounts, payment due dates, account names, and related credit fields.</li>
+        <li>Connected checking and cash-management account metadata, balance information, selected-account references, and balance timestamps returned by Plaid when you authorize a cash-flow starting balance connection. TYDES uses this feature to populate Cash Flow starting balances and does not display transaction line items.</li>
         <li>User-entered planning information, such as manual accounts, recurring events, cash-flow settings, and bill status entries.</li>
         <li>Operational and security logs, such as request paths, timestamps, error categories, and hashed identifiers used for investigation and reliability.</li>
       </ul>
@@ -60,6 +61,7 @@
         <li>To create and exchange Plaid Link tokens and maintain linked financial connections.</li>
         <li>To record and honor your consent choices for Plaid-powered account connectivity.</li>
         <li>To retrieve, store, and display liabilities and due-date information in the app.</li>
+        <li>To populate Cash Flow starting balances from authorized checking or cash-management account balances without displaying transaction line items.</li>
         <li>To support planning features and cross-device planning-state sync for signed-in users.</li>
         <li>To support security monitoring, fraud prevention, debugging, incident response, and service reliability.</li>
         <li>To comply with legal, security, platform, and regulatory obligations when applicable.</li>
@@ -72,7 +74,7 @@
         Bill Tracker Hub uses Plaid to support financial account connectivity. Information flow between financial institutions,
         Plaid, and Bill Tracker Hub is governed by user consent, platform terms, and applicable law.
         Before Plaid Link opens, Bill Tracker Hub asks you to consent to TYDES collecting, processing, and storing
-        connected account and liability data for bill tracking. Plaid also presents its own consent and authorization
+        connected account and liability data for bill tracking and cash-flow forecasting. Plaid also presents its own consent and authorization
         flow inside Plaid Link.
       </p>
       <p>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bill Tracker Hub</title>
-  <meta name="description" content="Bill Tracker Hub helps users connect financial accounts and track liabilities and payment due dates.">
+  <meta name="description" content="Bill Tracker Hub helps users track liabilities, due dates, and cash-flow starting balances through Plaid-powered account connectivity.">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -12,10 +12,10 @@
     <div class="container">
       <img class="logo-horizontal" src="./assets/logo-horizontal.svg" alt="Bill Tracker Hub logo">
       <p class="eyebrow">Bill Tracker Hub</p>
-      <h1>Liability Tracking With Plaid Connectivity</h1>
+      <h1>Bill and Cash Flow Tracking With Plaid Connectivity</h1>
       <p class="lead">
-        Bill Tracker Hub is an iOS application for connecting financial accounts and
-        viewing liability balances, amounts due, and due-date status.
+        Bill Tracker Hub is an iOS application for connecting financial accounts,
+        tracking liabilities and due dates, and planning near-term cash flow.
       </p>
       <div class="actions">
         <a class="btn primary" href="./privacy.html">Privacy Policy</a>
@@ -29,10 +29,10 @@
     <section class="card">
       <h2>What The App Does</h2>
       <ul>
-        <li>Creates Plaid Link tokens from a secure backend service.</li>
+        <li>Creates Plaid Link tokens from a secure backend service for authorized financial connections.</li>
         <li>Requires explicit app consent before Plaid Link access.</li>
         <li>Supports Plaid OAuth and Universal Link return for supported institutions.</li>
-        <li>Shows liabilities with due-date indicators in the iOS client.</li>
+        <li>Shows Dashboard, Accounts, Schedule, and Cash Flow views for balances, due dates, statement status, and near-term planning.</li>
       </ul>
     </section>
 
@@ -41,8 +41,8 @@
       <ul>
         <li>Network requests use HTTPS/TLS.</li>
         <li>Authentication uses Apple Sign In and backend session controls.</li>
-        <li>Plaid access tokens are encrypted at rest.</li>
-        <li>The backend is liabilities-focused and does not expose account/transaction feeds.</li>
+        <li>Sensitive Plaid data stored by the backend is encrypted at rest.</li>
+        <li>The backend is scoped to liabilities and authorized checking/cash balance data for Cash Flow; general account and transaction-list endpoints remain disabled.</li>
       </ul>
     </section>
 
