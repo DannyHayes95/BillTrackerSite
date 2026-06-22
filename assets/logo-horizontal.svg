@@ -14,6 +14,6 @@
   <path d="M54 158C54 140.327 68.327 126 86 126H104V174H86C68.327 174 54 159.673 54 142V158Z" fill="white"/>
   <path d="M104 70H138C155.673 70 170 84.327 170 102V102C170 119.673 155.673 134 138 134H104V70Z" fill="white"/>
   <rect x="104" y="134" width="32" height="40" fill="white"/>
-  <text x="274" y="112" fill="#0F172A" font-size="60" font-family="Avenir Next, Avenir, Segoe UI, Arial, sans-serif" font-weight="700">Bill Tracker Hub</text>
-  <text x="278" y="162" fill="#475569" font-size="30" font-family="Avenir Next, Avenir, Segoe UI, Arial, sans-serif" font-weight="500">Liability Insights</text>
+  <text x="274" y="112" fill="#0F172A" font-size="72" font-family="Avenir Next, Avenir, Segoe UI, Arial, sans-serif" font-weight="700">TYDES</text>
+  <text x="278" y="162" fill="#475569" font-size="30" font-family="Avenir Next, Avenir, Segoe UI, Arial, sans-serif" font-weight="500">Bill and Cash Flow Tracking</text>
 </svg>
