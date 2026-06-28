@@ -33,13 +33,6 @@ body {
   padding-bottom: 1rem;
 }
 
-.logo-horizontal {
-  width: min(500px, 86vw);
-  height: auto;
-  display: block;
-  margin-bottom: 0.8rem;
-}
-
 .logo-app-icon {
   width: min(210px, 58vw);
   height: auto;
