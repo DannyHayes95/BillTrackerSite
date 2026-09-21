@@ -100,6 +100,8 @@
         connected, consent records are kept while the account remains active, planning-state data is kept while the
         account remains active, and liabilities history is retained on a rolling basis unless the user disconnects or
         requests deletion. An active APNs device token is retained while it is registered to the signed-in account.
+        Raw Plaid API responses are kept encrypted for a short troubleshooting period (30 days by default) and are
+        deleted when the related institution is disconnected or the account is deleted.
       </p>
       <p>
         If a user disconnects a linked Plaid item through app controls, TYDES attempts to remove the Plaid
