@@ -3,36 +3,152 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TYDES</title>
-  <meta name="description" content="TYDES helps users track liabilities, due dates, and cash-flow starting balances through Plaid-powered account connectivity.">
+  <title>TYDES | See Your Full Financial Picture</title>
+  <meta name="description" content="Every loan is sold as a monthly payment. TYDES shows what you actually owe, what it is really costing you in interest and fees, how long you will be paying, and whether your cash flow can cover it.">
+  <meta property="og:title" content="TYDES | See Your Full Financial Picture">
+  <meta property="og:description" content="The monthly payment is not the whole picture. TYDES shows what you owe, what it costs, how long you will be paying, and whether you can cover it.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dannyhayes95.github.io/BillTrackerSite/">
+  <meta property="og:image" content="https://dannyhayes95.github.io/BillTrackerSite/assets/logo-mark-1024.png">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <header class="hero">
-    <div class="container">
+    <div class="container hero-grid">
       <img class="logo-app-icon" src="./assets/logo-mark-1024.png?v=20260628-tydes-logo" alt="TYDES app icon">
-      <p class="eyebrow">TYDES</p>
-      <h1>Bill and Cash Flow Tracking With Plaid Connectivity</h1>
-      <p class="lead">
-        TYDES is an iOS application for connecting financial accounts,
-        tracking liabilities and due dates, and planning near-term cash flow.
-      </p>
-      <div class="actions">
-        <a class="btn primary" href="./privacy.html">Privacy Policy</a>
-        <a class="btn" href="./privacy-choices.html">Privacy Choices</a>
+      <div class="hero-copy">
+        <p class="eyebrow">TYDES</p>
+        <h1>The monthly payment is not the whole picture.</h1>
+        <p class="lead">
+          Credit cards, buy now pay later, point-of-sale loans, home improvement financing. All of it is sold as
+          “just this much a month.” TYDES shows you what you actually owe, what it is really costing you in interest
+          and fees, how long you will be paying, and whether your cash flow can cover it.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#full-picture">See what TYDES shows</a>
+          <a class="btn" href="./privacy.html">Privacy Policy</a>
+        </div>
       </div>
     </div>
   </header>
 
   <main class="container stack">
     <section class="card">
-      <h2>What The App Does</h2>
-      <ul>
-        <li>Connects authorized financial accounts through Plaid.</li>
-        <li>Requests clear consent before connecting financial accounts.</li>
-        <li>Supports secure sign-in and supported institution connection flows.</li>
-        <li>Shows Dashboard, Accounts, Schedule, and Cash Flow views for balances, due dates, statement status, and near-term planning.</li>
-      </ul>
+      <h2>Month to month is where the cost hides</h2>
+      <p>
+        Financing has never been easier to say yes to. Pay in four at checkout. A point-of-sale loan for the new couch.
+        A home improvement plan from the contractor. A card for everything else. Each one is presented as a payment you
+        can handle this month.
+      </p>
+      <p>
+        None of them show you the total. Not the interest, not the fees, not how many years you will be paying, and not
+        what happens to your checking account when all of those payments land in the same week.
+      </p>
+      <p class="callout">
+        Roughly 6 in 10 Americans live paycheck to paycheck. When every decision is made one month at a time, the full
+        cost of borrowing stays invisible until it becomes a problem.
+      </p>
+    </section>
+
+    <section class="card" id="full-picture">
+      <h2>The full picture, in four questions</h2>
+      <p class="section-intro">
+        TYDES is built to answer the questions a monthly payment never does.
+      </p>
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="feature-num">1</span>
+          <h3>What do I owe?</h3>
+          <p>
+            Every balance in one place: cards, buy now pay later plans, personal and point-of-sale loans, home
+            improvement financing, and anything you add manually. Balances, minimums, and due dates side by side
+            instead of scattered across a dozen apps and statements.
+          </p>
+        </article>
+        <article class="feature">
+          <span class="feature-num">2</span>
+          <h3>What is it really costing me?</h3>
+          <p>
+            Interest at each account’s actual rate, plus the fees that pile on when a payment slips. “Just $90 a
+            month” becomes a real dollar figure you can see, compare, and decide on.
+          </p>
+        </article>
+        <article class="feature">
+          <span class="feature-num">3</span>
+          <h3>How long will I be paying?</h3>
+          <p>
+            A payoff horizon for every balance at the payment you are making now, so a “manageable” monthly payment
+            shows its true length in months and years.
+          </p>
+        </article>
+        <article class="feature">
+          <span class="feature-num">4</span>
+          <h3>Can I actually cover it?</h3>
+          <p>
+            Cash Flow starts from your real checking balance, lines up what is due and when, and shows what is left.
+            You see the squeeze before it happens, not after the overdraft.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>“$90 a month” vs. the full picture</h2>
+      <div class="table-wrap">
+        <table class="compare">
+          <thead>
+            <tr>
+              <th scope="col">What you were told</th>
+              <th scope="col">What TYDES shows</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="What you were told"><strong>$90 a month</strong> on a $3,000 card balance at 24.99% APR</td>
+              <td data-label="What TYDES shows">About 58 months to pay it off and roughly $2,170 in interest. Total cost: about $5,170.</td>
+            </tr>
+            <tr>
+              <td data-label="What you were told"><strong>$212 a month</strong> on $12,000 of home improvement financing at 11.99% APR over 7 years</td>
+              <td data-label="What TYDES shows">About $17,800 paid in total. Roughly $5,800 of it is interest.</td>
+            </tr>
+            <tr>
+              <td data-label="What you were told"><strong>Four easy payments of $50</strong>, on five different purchases</td>
+              <td data-label="What TYDES shows">$500 leaving your checking account this month, before rent and groceries.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="fine">
+        Illustrative examples using standard amortization. Your numbers depend on your balances, rates, fees, and payments.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>This is not another budgeting app</h2>
+      <p>
+        Budgeting apps track where your money went. Spending trackers sort transactions into categories. Both are
+        useful, and neither answers the question that keeps people up at night.
+      </p>
+      <div class="contrast-grid">
+        <div class="contrast">
+          <h3>Budgeting and spend tracking</h3>
+          <p>Where did last month’s money go? Categories, envelopes, and spending limits. It looks backward.</p>
+        </div>
+        <div class="contrast highlight">
+          <h3>TYDES</h3>
+          <p>What am I committed to, what does it cost, how long will it take, and can I pay it? The liability side of your life, looking forward.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>Connect your accounts through Plaid, or add accounts and payment plans manually. TYDES asks for clear consent before anything is connected.</li>
+        <li>TYDES pulls balances, statement amounts, minimums, rates, and due dates for your liabilities, and a starting balance from the checking account you choose, without displaying transaction line items.</li>
+        <li>Add the recurring events that matter, like paychecks and rent, then see the whole picture across the Dashboard, Accounts, Schedule, and Cash Flow views.</li>
+        <li>Get a payment-review notification before a payment is due, so nothing slips into late fees.</li>
+      </ol>
     </section>
 
     <section class="card">
@@ -42,7 +158,20 @@
         <li>Sign in with Apple is used for account authentication.</li>
         <li>Sensitive connected-account data is protected with encryption at rest.</li>
         <li>TYDES uses authorized financial data only to support bill tracking, liability insights, and Cash Flow planning.</li>
+        <li>TYDES does not sell personal information or use your financial data for third-party advertising.</li>
       </ul>
+    </section>
+
+    <section class="card cta">
+      <h2>Stop managing money one payment at a time.</h2>
+      <p>
+        TYDES is an iOS app. Connect your accounts, see the whole picture, and make the next financing decision with
+        the full cost in front of you.
+      </p>
+      <div class="actions">
+        <a class="btn light" href="./privacy.html">How TYDES handles your data</a>
+        <a class="btn ghost" href="./privacy-choices.html">Privacy Choices</a>
+      </div>
     </section>
 
     <section class="card">
